@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            border: 1px solid black;
+        }
+
+        .th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .para{
+            color: rgb(143, 0, 0);
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table class="box">
+            <thead>
+                <tr class="form">
+                    <th colspan="2" class="th"><b>Registration Form</b></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="form">
+                    <th class="th">Student name</th>
+                    <td class="td"><input type="text"></td>
+                </tr>
+                <tr class="form">
+                    <th class="th">Father's name</th>
+                    <td class="td"><input type="text"></td>
+                </tr>
+                <tr class="form">
+                    <th class="th">Mother's name</th>
+                    <td class="td"><input type="text"></td>
+                </tr>
+                <tr class="form">
+                    <th class="th">Date of Birth</th>
+                    <td class="td"><input type="date"></td>
+                </tr>
+                <tr class="form">
+                    <th class="th">Gender</th>
+                    <td class="td">
+                        <label for="gender">male</label>
+                        <input type="radio" name="gender">
+                        <label for="gender">female</label>
+                        <input type="radio" name="gender">
+                    </td>
+                </tr>
+                <tr class="form">
+                    <th class="th">Email ID</th>
+                    <td class="td"><input type="email"></td>
+                </tr>
+                <tr class="form">
+                    <th class="th">Mobile NO.</th>
+                    <td class="td"><input type="number"></td>
+                </tr>
+                <tr class="form">
+                    <th class="th">Address</th>
+                    <td class="td"><textarea name="textarea" id="area" cols="20" rows="3"></textarea></td>
+                </tr>
+                <tr class="form">
+                    <th class="th">State</th>
+                    <td class="td"><input type="text"></td>
+                </tr>
+                <tr class="form">
+                    <th class="th">City</th>
+                    <td class="td"><input type="text"></td>
+                </tr>
+                <tr class="form">
+                    <th class="th"></th>
+                    <td class="td"><input type="submit"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <p class="para"><b>www.itcomputerguruji.com</b></p>
+</body>
+
+</html>
