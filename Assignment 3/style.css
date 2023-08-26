@@ -1,0 +1,354 @@
+.section1 {
+    background-color: rgb(244, 248, 252);
+    height: 600px;
+}
+
+.li {
+    display: inline;
+
+    margin: 5px 10px;
+}
+
+.label {
+    margin: 1px;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.a {
+    text-decoration: none;
+    color: gray;
+    padding: 8px 13px;
+}
+
+.a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+}
+
+.ul {
+    float: right;
+}
+
+.btn {
+    margin: 5px 20px;
+    padding: 7px 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.img {
+    margin-top: 11%;
+    height: 329px;
+    float: right;
+    margin-left: 15%;
+    margin-right: 50px;
+}
+
+.heading {
+
+    font-size: 60px;
+    margin-top: 12%;
+    margin-left: 25px;
+}
+
+.para {
+    margin-left: 25px;
+}
+
+#btn1 {
+    margin: 20px 10px;
+    margin-left: 25px;
+    background-color: orangered;
+    padding: 8px 15px;
+    border: none;
+    color: white;
+}
+
+#btn2 {
+    margin: 20px 8px;
+    background-color: black;
+    padding: 8px 15px;
+    border: none;
+    color: white;
+}
+
+#btn1:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+#btn2:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: 22rem 22rem 22rem;
+    grid-gap: 22px;
+}
+
+.div {
+    margin: 10px 85px;
+    border: 1px solid rgb(177, 177, 177);
+    width: 350px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.heading2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.para2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.images {
+    margin: 35px 150px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para3 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+    color: orangered;
+}
+
+.para4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.orange {
+    height: 35px;
+    margin: -9px 0px;
+    margin-left: 48px;
+}
+
+.search {
+    height: 17px;
+    margin: 0px 25px;
+}
+
+.btn3 {
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: block;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn3:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.heading3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.para5 {
+    text-align: center;
+}
+
+.para6 {
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.para7 {
+
+    margin-left: 70px;
+}
+
+.img1 {
+    margin-top: 50px;
+    float: right;
+    height: 125px;
+    margin-right: 100px;
+}
+
+.img2 {
+    float: right;
+    height: 180px;
+    margin-right: 166px;
+    margin-top: 88px;
+
+}
+
+.btn4 {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.btn4:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.img3 {
+    height: 175px;
+    float: right;
+    margin-top: 122px;
+    margin-right: -123px;
+}
+
+.heading4 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.para8 {
+    text-align: center;
+}
+
+.img4 {
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+.para9 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+
+.para10 {
+    text-align: center;
+    margin: 0px;
+}
+
+.para11 {
+    text-align: center;
+    margin: 0px;
+}
+
+.para12 {
+    text-align: center;
+    margin: 0px;
+}
+
+.heading5 {
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.input {
+    width: 550px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 70px;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+#input4 {
+    margin-top: 50px;
+}
+
+.btn1 {
+    margin: 50px 10px;
+    margin-left: 75px;
+    background-color: orangered;
+    padding: 8px 20px;
+    border: none;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.img5 {
+    float: right;
+    height: 400px;
+    margin-top: -45px;
+    margin-right: 50px;
+}
+
+.para13 {
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.section5 {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 23rem 21rem 18rem 18rem;
+}
+
+#fruit {
+    margin-left: 70px;
+}
+
+.para15 {
+    font-size: 23px;
+}
+
+.icons {
+    height: 30px;
+}
+
+.name {
+    padding: 3px;
+    width: 200px;
+}
+
+.btn5 {
+    padding: 7px 30px;
+    background-color: orangered;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
+
+.btn5:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.section6 {
+    margin-top: 90px;
+}
+
+.navbar1 {
+    margin-left: 50px;
+    background-color: rgb(241, 239, 239);
+    text-align: center;
+    padding: 20px;
+}
